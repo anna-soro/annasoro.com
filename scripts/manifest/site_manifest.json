@@ -6,8 +6,7 @@
     "logodesign.html": "LOGOS",
     "print.html": "PRINT",
     "video.html": "VIDEO",
-    "motiondesign.html": "MOTION DESIGN",
-    "contact.html": "CONTACT"
+    "motiondesign.html": "MOTION DESIGN"
   },
   "pages": {
     "3d-simulation-with-ai.html": {
@@ -65,14 +64,6 @@
       "keywords": "designer,design,Brand Identity,Logo Design,Graphic Design,UX,UI,packaging,motion design,Advertising,Souvenir products",
       "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
       "nav_active": null
-    },
-    "contact.html": {
-      "title": "ANNA SORO - CONTACT",
-      "canonical": "contact.html",
-      "page_css": "dist/css/pages/e68e5d235ace38407cea25ffbaf618b61773745063.css",
-      "keywords": "designer,design,Brand Identity,Logo Design,Graphic Design,UX,UI,packaging,motion design,Advertising,Souvenir products",
-      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
-      "nav_active": "contact.html"
     },
     "copy-of-3d-simulation-with-ai.html": {
       "title": "ANNA SORO - 3D simulation with AI",
