@@ -32,10 +32,11 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-HTML_FILES = sorted(REPO_ROOT.glob("*.html"))
-DIST_IMAGES = REPO_ROOT / "dist" / "images"
-DIST_CSS_PAGES = REPO_ROOT / "dist" / "css" / "pages"
-DIST_VIDEO = REPO_ROOT / "dist" / "video"
+APP_ROOT = REPO_ROOT / "app"
+HTML_FILES = sorted(APP_ROOT.glob("*.html"))
+DIST_IMAGES = APP_ROOT / "dist" / "images"
+DIST_CSS_PAGES = APP_ROOT / "dist" / "css" / "pages"
+DIST_VIDEO = APP_ROOT / "dist" / "video"
 DIST_VIDEO_CASE_STUDIES = DIST_VIDEO / "case-studies"
 MANIFEST_PATH = REPO_ROOT / "scripts" / "asset_manifest.json"
 INVENTORY_PATH = REPO_ROOT / "scripts" / "inventory.json"
@@ -380,7 +381,7 @@ def _now() -> str:
 
 def download_one(session: requests.Session, ref: AssetRef, manifest: dict, refresh_ccv: bool) -> dict:
     mkey = CATEGORY_TO_MANIFEST_KEY[ref.category]
-    dest = REPO_ROOT / ref.local_rel_path
+    dest = APP_ROOT / ref.local_rel_path
     prior = manifest[mkey].get(ref.key)
 
     if ref.category != "ccv-video":
@@ -609,7 +610,7 @@ def verify_site(html_paths: list) -> dict:
 
     all_text = "\n".join(text_by_file.values())
     referenced = set(DIST_REF_RE.findall(all_text))
-    missing = sorted(p for p in referenced if not (REPO_ROOT / p).exists())
+    missing = sorted(p for p in referenced if not (APP_ROOT / p).exists())
     checks["missing_dist_files"] = missing
 
     return checks
