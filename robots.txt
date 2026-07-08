@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://annasoro.com/sitemap.xml
