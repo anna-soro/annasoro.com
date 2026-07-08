@@ -1,0 +1,23 @@
+{
+  "phase": "verify",
+  "finished_at": "2026-07-08T12:30:41.135821+00:00",
+  "remaining_image_css": {},
+  "remaining_ccvproxy": {},
+  "remaining_ccv_iframe": {},
+  "out_of_scope_counts": {
+    "typekit": 38,
+    "vimeo": 2,
+    "behance": 116,
+    "linkedin": 116,
+    "telegram": 1
+  },
+  "out_of_scope_baseline": {
+    "typekit": 38,
+    "vimeo": 2,
+    "behance": 116,
+    "linkedin": 116,
+    "telegram": 1
+  },
+  "out_of_scope_drift": {},
+  "missing_dist_files": []
+}
