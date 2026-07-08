@@ -1,0 +1,36 @@
+services:
+  annasoro:
+    build:
+      context: ..
+      dockerfile: infra/Dockerfile
+    image: annasoro-site:latest
+    container_name: annasoro-site
+    restart: unless-stopped
+    networks:
+      - traefik
+    labels:
+      - "traefik.enable=true"
+
+      - "traefik.http.routers.annasoro.rule=Host(`annasoro.com`)"
+      - "traefik.http.routers.annasoro.entrypoints=websecure"
+      - "traefik.http.routers.annasoro.tls=true"
+      - "traefik.http.routers.annasoro.tls.certresolver=le"
+      - "traefik.http.routers.annasoro.service=annasoro"
+
+      # www -> apex 301 redirect
+      - "traefik.http.middlewares.annasoro-www-redirect.redirectregex.regex=^https?://www\\.annasoro\\.com/(.*)"
+      - "traefik.http.middlewares.annasoro-www-redirect.redirectregex.replacement=https://annasoro.com/$${1}"
+      - "traefik.http.middlewares.annasoro-www-redirect.redirectregex.permanent=true"
+
+      - "traefik.http.routers.annasoro-www.rule=Host(`www.annasoro.com`)"
+      - "traefik.http.routers.annasoro-www.entrypoints=websecure"
+      - "traefik.http.routers.annasoro-www.tls=true"
+      - "traefik.http.routers.annasoro-www.tls.certresolver=le"
+      - "traefik.http.routers.annasoro-www.middlewares=annasoro-www-redirect"
+      - "traefik.http.routers.annasoro-www.service=annasoro"
+
+      - "traefik.http.services.annasoro.loadbalancer.server.port=80"
+
+networks:
+  traefik:
+    external: true

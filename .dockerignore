@@ -1,0 +1,10 @@
+.git
+.idea
+docs
+scripts
+CLAUDE.md
+FORBoehpyk.md
+.gitignore
+README*
+*.md
+.DS_Store
