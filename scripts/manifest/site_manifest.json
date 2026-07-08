@@ -1,0 +1,318 @@
+{
+  "generated_at": "2026-07-08T16:51:39.570952+00:00",
+  "reference_page": "work.html",
+  "nav_targets": {
+    "about.html": "ABOUT",
+    "logodesign.html": "LOGOS",
+    "print.html": "PRINT",
+    "video.html": "VIDEO",
+    "motiondesign.html": "MOTION DESIGN",
+    "contact.html": "CONTACT"
+  },
+  "pages": {
+    "3d-simulation-with-ai.html": {
+      "title": "ANNA SORO - 3D simulation with AI",
+      "canonical": "3d-simulation-with-ai.html",
+      "page_css": "dist/css/pages/717829a48b5fad64747b7bf2f577ae731773745063.css",
+      "keywords": "designer,design,Brand Identity,Logo Design,Graphic Design,UX,UI,packaging,motion design,Advertising,Souvenir products",
+      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
+      "nav_active": null
+    },
+    "about.html": {
+      "title": "ANNA SORO - ABOUT",
+      "canonical": "about.html",
+      "page_css": "dist/css/pages/8afec5705cb9b0da29c444bd5af5dad91773745063.css",
+      "keywords": "designer,design,Brand Identity,Logo Design,Graphic Design,UX,UI,packaging,motion design,Advertising,Souvenir products",
+      "description": "Graphic and Digital Designer",
+      "nav_active": "about.html"
+    },
+    "anesthesia-short-film-trailer.html": {
+      "title": "ANNA SORO - Anesthesia | Short Film Trailer",
+      "canonical": "anesthesia-short-film-trailer.html",
+      "page_css": "dist/css/pages/717829a48b5fad64747b7bf2f577ae731773745063.css",
+      "keywords": "designer,design,Brand Identity,Logo Design,Graphic Design,UX,UI,packaging,motion design,Advertising,Souvenir products",
+      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
+      "nav_active": null
+    },
+    "axfood-ab-templates-design.html": {
+      "title": "ANNA SORO - Office Screen Digital Designs | Axfood AB",
+      "canonical": "axfood-ab-templates-design.html",
+      "page_css": "dist/css/pages/55cfa039f0c70283f35f43c146bce8bb1773745063.css",
+      "keywords": "adobe in design,Illustrator,visual identity,Brand Design,marketing,Advertising",
+      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
+      "nav_active": null
+    },
+    "cd-design-for-dutchpunch-music-festival.html": {
+      "title": "ANNA SORO - CD Design | DutchPunch music festival",
+      "canonical": "cd-design-for-dutchpunch-music-festival.html",
+      "page_css": "dist/css/pages/2de68cfb0507c4d5b9c877a2f0c70bd01773745063.css",
+      "keywords": "design,Graphic Designer,branding,adobe illustrator,photoshop,cd,CD design,Packaging,product design,Logo Design",
+      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
+      "nav_active": null
+    },
+    "christmas-card-for-axfood-ab.html": {
+      "title": "ANNA SORO - Christmas Card | Axfood AB",
+      "canonical": "christmas-card-for-axfood-ab.html",
+      "page_css": "dist/css/pages/511a145a77d06e1a373b16e2e0317f421773745063.css",
+      "keywords": "ILLUSTRATION,artwork,adobe illustrator,brand identity,visual,Brand Design,Socialmedia,branding,motion design",
+      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
+      "nav_active": null
+    },
+    "christmas-sticker-pack-for-company-axfood.html": {
+      "title": "ANNA SORO - Christmas Sticker Pack | Axfood AB",
+      "canonical": "christmas-sticker-pack-for-company-axfood.html",
+      "page_css": "dist/css/pages/fca979249916c5c92dbc528494ed99a11773745063.css",
+      "keywords": "designer,design,Brand Identity,Logo Design,Graphic Design,UX,UI,packaging,motion design,Advertising,Souvenir products",
+      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
+      "nav_active": null
+    },
+    "contact.html": {
+      "title": "ANNA SORO - CONTACT",
+      "canonical": "contact.html",
+      "page_css": "dist/css/pages/e68e5d235ace38407cea25ffbaf618b61773745063.css",
+      "keywords": "designer,design,Brand Identity,Logo Design,Graphic Design,UX,UI,packaging,motion design,Advertising,Souvenir products",
+      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
+      "nav_active": "contact.html"
+    },
+    "copy-of-3d-simulation-with-ai.html": {
+      "title": "ANNA SORO - 3D simulation with AI",
+      "canonical": "copy-of-3d-simulation-with-ai.html",
+      "page_css": "dist/css/pages/717829a48b5fad64747b7bf2f577ae731773745063.css",
+      "keywords": "designer,design,Brand Identity,Logo Design,Graphic Design,UX,UI,packaging,motion design,Advertising,Souvenir products",
+      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
+      "nav_active": null
+    },
+    "copy-of-cd-design-for-dutchpunch-music-festival.html": {
+      "title": "ANNA SORO - CD Design | DutchPunch music festival",
+      "canonical": "copy-of-cd-design-for-dutchpunch-music-festival.html",
+      "page_css": "dist/css/pages/2de68cfb0507c4d5b9c877a2f0c70bd01773745063.css",
+      "keywords": "design,Graphic Designer,branding,adobe illustrator,photoshop,cd,CD design,Packaging,product design,Logo Design",
+      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
+      "nav_active": null
+    },
+    "copy-of-christmas-card-for-axfoodab.html": {
+      "title": "ANNA SORO - Christmas Card | Axfood AB",
+      "canonical": "copy-of-christmas-card-for-axfoodab.html",
+      "page_css": "dist/css/pages/7f19bbb9ada195f76fd4fe9f52fbe90d1773745063.css",
+      "keywords": "ILLUSTRATION,artwork,adobe illustrator,brand identity,visual,Brand Design,Socialmedia,branding,motion design",
+      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
+      "nav_active": null
+    },
+    "copy-of-fully-ai-generated-video.html": {
+      "title": "ANNA SORO - Fully AI-Generated Video",
+      "canonical": "copy-of-fully-ai-generated-video.html",
+      "page_css": "dist/css/pages/717829a48b5fad64747b7bf2f577ae731773745063.css",
+      "keywords": "designer,design,Brand Identity,Logo Design,Graphic Design,UX,UI,packaging,motion design,Advertising,Souvenir products",
+      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
+      "nav_active": null
+    },
+    "copy-of-logo-and-identity-for-the-dental-conference.html": {
+      "title": "ANNA SORO - Promotional Materials | Dental Conference",
+      "canonical": "copy-of-logo-and-identity-for-the-dental-conference.html",
+      "page_css": "dist/css/pages/4eb5775d6d51b5c6ae89e9c96ed14b071773745063.css",
+      "keywords": "design,Graphic Designer,brand identity,Logo Design,Logotype,visual identity,Advertising,ads",
+      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
+      "nav_active": null
+    },
+    "copy-of-logo-mat2030.html": {
+      "title": "ANNA SORO - Logo Design | Mat2030",
+      "canonical": "copy-of-logo-mat2030.html",
+      "page_css": "dist/css/pages/d77932c1f7e11738f18059891e3e64981773745063.css",
+      "keywords": "designer,design,Brand Identity,Logo Design,Graphic Design,UX,UI,packaging,motion design,Advertising,Souvenir products",
+      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
+      "nav_active": null
+    },
+    "copy-of-motion-design.html": {
+      "title": "ANNA SORO - Motion Design | Brand Intro",
+      "canonical": "copy-of-motion-design.html",
+      "page_css": "dist/css/pages/25fb2b52b170d61134f771b055116fe61773745063.css",
+      "keywords": "designer,design,Brand Identity,Logo Design,Graphic Design,UX,UI,packaging,motion design,Advertising,Souvenir products",
+      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
+      "nav_active": null
+    },
+    "copy-of-short-self-introduction-video.html": {
+      "title": "ANNA SORO - Short self-introduction video",
+      "canonical": "copy-of-short-self-introduction-video.html",
+      "page_css": "dist/css/pages/717829a48b5fad64747b7bf2f577ae731773745063.css",
+      "keywords": "designer,design,Brand Identity,Logo Design,Graphic Design,UX,UI,packaging,motion design,Advertising,Souvenir products",
+      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
+      "nav_active": null
+    },
+    "digital-intro-for-pygmalion-film.html": {
+      "title": "ANNA SORO - Digital Intro for Pygmalion Film",
+      "canonical": "digital-intro-for-pygmalion-film.html",
+      "page_css": "dist/css/pages/717829a48b5fad64747b7bf2f577ae731773745063.css",
+      "keywords": "designer,design,Brand Identity,Logo Design,Graphic Design,UX,UI,packaging,motion design,Advertising,Souvenir products",
+      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
+      "nav_active": null
+    },
+    "fully-ai-generated-video.html": {
+      "title": "ANNA SORO - Fully AI-Generated Video",
+      "canonical": "fully-ai-generated-video.html",
+      "page_css": "dist/css/pages/717829a48b5fad64747b7bf2f577ae731773745063.css",
+      "keywords": "designer,design,Brand Identity,Logo Design,Graphic Design,UX,UI,packaging,motion design,Advertising,Souvenir products",
+      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
+      "nav_active": null
+    },
+    "holiday-greeting-animation-for-axfood-ab.html": {
+      "title": "ANNA SORO - Holiday Greeting Animation  | Axfood AB",
+      "canonical": "holiday-greeting-animation-for-axfood-ab.html",
+      "page_css": "dist/css/pages/afbe763c2d31aa7ccea9d0b1e17bec801773745063.css",
+      "keywords": "designer,design,Brand Identity,Logo Design,Graphic Design,UX,UI,packaging,motion design,Advertising,Souvenir products",
+      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
+      "nav_active": null
+    },
+    "index.html": {
+      "title": "ANNA SORO",
+      "canonical": "work.html",
+      "page_css": "dist/css/pages/16edab90d40636763b0d6f8e16e83b331773745063.css",
+      "keywords": "designer,design,Brand Identity,Logo Design,Graphic Design,UX,UI,packaging,motion design,Advertising,Souvenir products",
+      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
+      "nav_active": null
+    },
+    "logo-and-branding-for-dental-clinic.html": {
+      "title": "ANNA SORO - Logo and branding for dental clinic",
+      "canonical": "logo-and-branding-for-dental-clinic.html",
+      "page_css": "dist/css/pages/91fbfc80ce71da40f44887154e1617541773745063.css",
+      "keywords": "Logotype,Logo Design,brand identity,logos,Brand Design,identity,Graphic Designer,vector,adobe illustrator",
+      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
+      "nav_active": null
+    },
+    "logo-and-identity-for-the-dental-conference.html": {
+      "title": "ANNA SORO - Logo and identity for the Dental Conference",
+      "canonical": "logo-and-identity-for-the-dental-conference.html",
+      "page_css": "dist/css/pages/d7b0b892be5253a2af978c9e2b54c5691773745063.css",
+      "keywords": "design,Graphic Designer,brand identity,Logo Design,Logotype,visual identity,Advertising,ads",
+      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
+      "nav_active": null
+    },
+    "logo-axfood2030.html": {
+      "title": "ANNA SORO - Logo Axfood2030",
+      "canonical": "logo-axfood2030.html",
+      "page_css": "dist/css/pages/946a701afb4b5c08b33c065865bce23f1773745063.css",
+      "keywords": "Logo Design,Graphic Designer,branding,brand identity,adobe illustrator,visual identity,logo,after effects,motion design,animation",
+      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
+      "nav_active": null
+    },
+    "logo-for-barbershop.html": {
+      "title": "ANNA SORO - Logo for barbershop",
+      "canonical": "logo-for-barbershop.html",
+      "page_css": "dist/css/pages/2de68cfb0507c4d5b9c877a2f0c70bd01773745063.css",
+      "keywords": "brand identity,design,logo,logos,Logotype",
+      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
+      "nav_active": null
+    },
+    "logo-mat2030.html": {
+      "title": "ANNA SORO - Logo Mat2030",
+      "canonical": "logo-mat2030.html",
+      "page_css": "dist/css/pages/d77932c1f7e11738f18059891e3e64981773745063.css",
+      "keywords": "designer,design,Brand Identity,Logo Design,Graphic Design,UX,UI,packaging,motion design,Advertising,Souvenir products",
+      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
+      "nav_active": null
+    },
+    "logo-of-society-for-the-study-of-color-in-dentistry.html": {
+      "title": "ANNA SORO - Logo of SOCIETY for the study of color in dentistry",
+      "canonical": "logo-of-society-for-the-study-of-color-in-dentistry.html",
+      "page_css": "dist/css/pages/2de68cfb0507c4d5b9c877a2f0c70bd01773745063.css",
+      "keywords": "design,Graphic Designer,Logo Design,visual identity,adobe illustrator,Logotype,identity,Brand Design",
+      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
+      "nav_active": null
+    },
+    "logo-ui-ux-samolitcom.html": {
+      "title": "ANNA SORO - Logo/UX/UI | SamoLit.com",
+      "canonical": "logo-ui-ux-samolitcom.html",
+      "page_css": "dist/css/pages/482ba878ef9bc40f849d590fbe5004cf1773745063.css",
+      "keywords": "design,Website Design,UI/UX,Website,user experience,ui design,branding,Logo Design,Advertising,marketing",
+      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
+      "nav_active": null
+    },
+    "logodesign.html": {
+      "title": "ANNA SORO - LOGOS",
+      "canonical": "logodesign.html",
+      "page_css": "dist/css/pages/73221422308ab70206ec1415eeb680bd1773745063.css",
+      "keywords": "designer,design,Brand Identity,Logo Design,Graphic Design,UX,UI,packaging,motion design,Advertising,Souvenir products",
+      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
+      "nav_active": "logodesign.html"
+    },
+    "motiondesign.html": {
+      "title": "ANNA SORO - MOTION DESIGN",
+      "canonical": "motiondesign.html",
+      "page_css": "dist/css/pages/fa904878c834619304080b798bc77d021773745063.css",
+      "keywords": "designer,design,Brand Identity,Logo Design,Graphic Design,UX,UI,packaging,motion design,Advertising,Souvenir products",
+      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
+      "nav_active": "motiondesign.html"
+    },
+    "of-the-earth-short-film-trailer.html": {
+      "title": "ANNA SORO - Of the Earth | Short Film Trailer",
+      "canonical": "of-the-earth-short-film-trailer.html",
+      "page_css": "dist/css/pages/717829a48b5fad64747b7bf2f577ae731773745063.css",
+      "keywords": "designer,design,Brand Identity,Logo Design,Graphic Design,UX,UI,packaging,motion design,Advertising,Souvenir products",
+      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
+      "nav_active": null
+    },
+    "package-design-dentistry.html": {
+      "title": "ANNA SORO - Package Design | Dentistry",
+      "canonical": "package-design-dentistry.html",
+      "page_css": "dist/css/pages/2de68cfb0507c4d5b9c877a2f0c70bd01773745063.css",
+      "keywords": "design,Graphic Designer,brand identity,Logotype,Logo Design,Packaging,product design,3d modeling,visualization",
+      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
+      "nav_active": null
+    },
+    "pediatric-dentistry-conference-promo-video.html": {
+      "title": "ANNA SORO - Pediatric Dentistry Conference | Promo Video",
+      "canonical": "pediatric-dentistry-conference-promo-video.html",
+      "page_css": "dist/css/pages/717829a48b5fad64747b7bf2f577ae731773745063.css",
+      "keywords": "designer,design,Brand Identity,Logo Design,Graphic Design,UX,UI,packaging,motion design,Advertising,Souvenir products",
+      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
+      "nav_active": null
+    },
+    "print.html": {
+      "title": "ANNA SORO - PRINT",
+      "canonical": "print.html",
+      "page_css": "dist/css/pages/6389fbec571cec7a76c0362f98cc589a1773745063.css",
+      "keywords": "designer,design,Brand Identity,Logo Design,Graphic Design,UX,UI,packaging,motion design,Advertising,Souvenir products",
+      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
+      "nav_active": "print.html"
+    },
+    "qr-library-project.html": {
+      "title": "ANNA SORO - Poster Design | QR-library Project",
+      "canonical": "qr-library-project.html",
+      "page_css": "dist/css/pages/63e7d1e3d8d265b257d43e1f981419151773745063.css",
+      "keywords": "product design,Graphic Designer,brand identity,Advertising,marketing,visual identity,innovation,creative,adobe illustrator",
+      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
+      "nav_active": null
+    },
+    "short-self-introduction-video.html": {
+      "title": "ANNA SORO - Short self-introduction video",
+      "canonical": "short-self-introduction-video.html",
+      "page_css": "dist/css/pages/717829a48b5fad64747b7bf2f577ae731773745063.css",
+      "keywords": "designer,design,Brand Identity,Logo Design,Graphic Design,UX,UI,packaging,motion design,Advertising,Souvenir products",
+      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
+      "nav_active": null
+    },
+    "short-social-media-videos.html": {
+      "title": "ANNA SORO - Short Social Media Videos",
+      "canonical": "short-social-media-videos.html",
+      "page_css": "dist/css/pages/25744c15cb01d997242b8d30a11c67291773745063.css",
+      "keywords": "designer,design,Brand Identity,Logo Design,Graphic Design,UX,UI,packaging,motion design,Advertising,Souvenir products",
+      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
+      "nav_active": null
+    },
+    "video.html": {
+      "title": "ANNA SORO - VIDEO",
+      "canonical": "video.html",
+      "page_css": "dist/css/pages/6854acb6e2977d1c1416dcbe5ec480841773745063.css",
+      "keywords": "designer,design,Brand Identity,Logo Design,Graphic Design,UX,UI,packaging,motion design,Advertising,Souvenir products",
+      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
+      "nav_active": "video.html"
+    },
+    "work.html": {
+      "title": "ANNA SORO",
+      "canonical": "work.html",
+      "page_css": "dist/css/pages/16edab90d40636763b0d6f8e16e83b331773745063.css",
+      "keywords": "designer,design,Brand Identity,Logo Design,Graphic Design,UX,UI,packaging,motion design,Advertising,Souvenir products",
+      "description": "Stockholm-based, globally inspired. A designer with 20 years of experience in graphic and digital design.",
+      "nav_active": null
+    }
+  }
+}

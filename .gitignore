@@ -1,4 +1,6 @@
 /docs
-/scripts
-CLAUDE.md
 FORBoehpyk.md
+__pycache__/
+scripts/reports/
+scripts/asset_manifest.json
+scripts/inventory.json
