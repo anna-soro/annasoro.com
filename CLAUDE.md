@@ -29,7 +29,7 @@ The repo root is split into `app/` (site content — everything that gets served
 
 - `infra/Dockerfile`, `infra/docker-compose.yml`, and `infra/nginx.conf` build an `nginx:alpine` image serving `app/` as the docroot, and deploy it behind an external Traefik reverse proxy (network `traefik`, certresolver `le`) with `annasoro.com` canonical and `www.annasoro.com` 301-redirecting to it. See `docs/plan/` for the full deployment plan and runbook.
 - The Docker build context is the repo root (`context: ..` from `infra/`), so `.dockerignore` must live at the repo root — Docker resolves it relative to the context root, not the Dockerfile's location.
-- Deploys are manual: `git pull` on the VPS, then `cd infra && docker compose up -d --build`. No CI/CD or registry push is used.
+- Deploys are triggered by `git pull` on the VPS: `infra/hooks/post-merge` (installed via `infra/hooks/install.sh`, one-time) is a git `post-merge` hook that runs `docker compose up -d --build` automatically after a pull brings in changes. It's gated behind `git config deploy.autoRebuild true` (set by the installer) so it's inert on developer clones that haven't opted in. No CI/CD or registry push is used.
 
 ### Naming quirk: `copy-of-*` files are not duplicates
 
