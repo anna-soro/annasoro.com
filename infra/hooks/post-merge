@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Rebuilds and restarts the annasoro-site container after `git pull` on production.
+# Runs on every merge (git pull = fetch + merge) but is a no-op unless explicitly
+# enabled on this checkout with: git config deploy.autoRebuild true
+set -euo pipefail
+
+if [ "$(git config --bool deploy.autoRebuild 2>/dev/null || echo false)" != "true" ]; then
+  exit 0
+fi
+
+repo_root="$(git rev-parse --show-toplevel)"
+cd "$repo_root/infra"
+
+echo "[post-merge] rebuilding annasoro-site container..."
+docker compose up -d --build
