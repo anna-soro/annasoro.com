@@ -198,13 +198,24 @@ def normalize_nav(text: str) -> str:
     return NAV_ACTIVE_RE.sub(">", text)
 
 
+def _nav_link_re(label: str) -> re.Pattern:
+    # Matches by link *label*, not by href — the href text (about.html, /about,
+    # /about/, etc.) is whatever the fragment authors it as and isn't assumed
+    # to equal the NAV_TARGETS key, which is just a stable page identifier.
+    return re.compile(rf'(<a href="[^"]*") >({re.escape(label)}</a>)')
+
+
+def _nav_link_active_re(label: str) -> re.Pattern:
+    return re.compile(rf'<a href="[^"]*" class="active">{re.escape(label)}</a>')
+
+
 def detect_nav_active(nav_text: str) -> Optional[str]:
     found = None
-    for href, label in NAV_TARGETS.items():
-        if f'href="{href}" class="active">{label}' in nav_text:
+    for href_key, label in NAV_TARGETS.items():
+        if _nav_link_active_re(label).search(nav_text):
             if found is not None:
                 return "__AMBIGUOUS__"
-            found = href
+            found = href_key
     return found
 
 
@@ -212,12 +223,11 @@ def render_nav_like(baseline_text: str, nav_active: Optional[str]) -> str:
     if nav_active is None:
         return baseline_text
     label = NAV_TARGETS[nav_active]
-    old = f'href="{nav_active}" >{label}</a>'
-    new = f'href="{nav_active}" class="active">{label}</a>'
-    count = baseline_text.count(old)
+    pattern = _nav_link_re(label)
+    count = len(pattern.findall(baseline_text))
     if count != 1:
-        raise ValueError(f"expected exactly 1 occurrence of nav target {nav_active!r}, found {count}")
-    return baseline_text.replace(old, new, 1)
+        raise ValueError(f"expected exactly 1 occurrence of nav label {label!r}, found {count}")
+    return pattern.sub(r'\1 class="active">\2', baseline_text, count=1)
 
 
 def render_fragment(fid: str, template_text: str, page_meta: dict) -> str:
